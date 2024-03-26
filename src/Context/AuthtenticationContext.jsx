@@ -31,10 +31,6 @@ export const AuthtenticationProvider = ({children}) => {
     
 
     const logout = () =>{
-        const history = useHistory
-        setUser(null)
-        localStorage.removeItem("user")
-        history.push(Login)
     }
 
     //memeriksa apakah pengguna sudah login dari local storage saat komponen dimuat
